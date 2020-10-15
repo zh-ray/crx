@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',Arial,sans-serif;
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    font-weight: lighter;
+    text-decoration: none;
+    color: #13b2ad;
+}
+
+.nav .split-line {
+    padding: 0 5px;
+    color: #999;
+}
+
+.nav .cur {
+	text-decoration: underline;
+}
+
+#main {
+    width: 500px;
+    height: 300px;
+    clear: both;
+}

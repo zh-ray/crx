@@ -1,0 +1,30 @@
+{
+   "background": {
+      "scripts": [ "event.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "images/icon16.png",
+         "24": "images/icon24.png",
+         "32": "images/icon32.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "description": "时间都去哪儿了。",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh6K0RTI36Xe56VQKyTGEF5z2+79rYZl2iJAPGsWwHvO+lr5l6wkzOCXwzW/FXsY9Fba6bhVoFGyGSqjFHqMuDl/s0bb5D80Fci5U2jCPRx7I+cudYbMQRax6TY51rxSAXOj5mV3gUPsFx3yc6X6R3v+5uatxMMO6CAh99rzQueDH9aKFWShIu8hohxE21vcsZCn30M3zYsW9//jlK7y/rA8jGyLY+8cHR7o6PapYFKy1BNkrOygVLd0DEJhlkS51Cc+PeJd1wbsbQsLjcPgHsaqQc56inLkcvHQGyuYdn6N6oZHFj1ne3howocMM/r26uoP4OWKK8gPtVjHI2H564wIDAQAB",
+   "manifest_version": 2,
+   "name": "时间",
+   "options_ui": {
+      "chrome_style": true,
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "tabs", "alarms", "unlimitedStorage", "idle" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.20.1.4"
+}
