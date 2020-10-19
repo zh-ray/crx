@@ -18,7 +18,7 @@ chrome.tabs.onActivated.addListener(function (activeInfo) {
 
         // 若激活一个新的tab，则需保存上一个tab的网站时间记录
         if (localStorage[windowId] != null) {
-            saveTime(windowIdArr);
+            saveTime(windowId);
         }
 
         startTimer(windowId, tabId, url, urlType);
@@ -43,9 +43,12 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     if (changeInfo.url == undefined) return;
 
     if (changeInfo.url != null) {
-        saveTime(tab.windowId);
-        startTimer(tab.windowId, tabId, changeInfo.url, filterUrl(changeInfo.url));
-        console.log(tab.windowId + " | " + tabId + " | " + filterUrl(changeInfo.url));
+        var urlType = filterUrl(changeInfo.url);
+        if (urlType != "Skip") {
+            saveTime(tab.windowId);
+            startTimer(tab.windowId, tabId, changeInfo.url, urlType);
+            console.log(tab.windowId + " | " + tabId + " | " + urlType);
+        }
     }
 });
 
@@ -135,7 +138,7 @@ function startTimer(windowId, tabId, url, urlType) {
         }
         // 将不同window中同一网站的开始计时时间同步为当前时间
         var start = Date.now();
-        for (var i = 0; i < windows, length; i++) {
+        for (var i = 0; i < windows.length; i++) {
             var wId = windows[i].id;
             if (localStorage[wId] == null) {
                 continue;
