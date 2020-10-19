@@ -1,0 +1,218 @@
+﻿* {
+    font-family: "微软雅黑";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 280px;
+    height: auto;
+}
+
+/* 标题 */
+
+.title {
+    margin: 0.6rem 0 0.3rem;
+    border-bottom: 0.06rem dashed #e9e9e9;
+    padding-bottom: 0.3rem;
+    cursor: default;
+}
+
+.title span {
+    width: 100%;
+    height: 1.5rem;
+    text-align: center;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.title_zh {
+    letter-spacing: 0.5rem;
+}
+
+.title_en {
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+}
+
+.columnname {
+    width: 100%;
+}
+
+.columnname ul,
+#detail ul,
+.operate {
+    display: flex;
+    padding: 0 15px;
+}
+
+.columnname li {
+    font-size: 0.9rem;
+    color: #929292;
+}
+
+#detail {
+    width: 200%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    margin-top: 0.2rem;
+}
+
+#detail li {
+    margin: 0.2rem 0;
+}
+
+.sitedetailul:hover {
+    color: #942323;
+    /* font-weight: 600; */
+}
+
+#detailleft,
+#detailright {
+    overflow: hidden;
+    flex: 1;
+}
+
+.nohistory {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* 网址列 */
+
+.sitecolumn {
+    flex: 3;
+    text-align: left;
+    overflow: hidden;
+}
+
+.sitedetailcolumn {
+    height: 19px;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.sitedetailcolumn .webicon {
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.sitedetailcolumn .webname {
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 130px;
+}
+
+/* 时间列 */
+
+.timecolumn {
+    flex: 1;
+    text-align: center;
+    cursor: default;
+}
+
+/* 比例列 */
+
+.ratiocolumn {
+    flex: 1;
+    text-align: right;
+    cursor: default;
+}
+
+.operate {
+    border-top: 0.06rem dashed #e9e9e9;
+    flex-flow: row wrap;
+    margin-top: 0.3rem;
+}
+
+/* 切换按钮 */
+
+#switchDetailType {
+    flex: 0 0 auto;
+    width: 45px;
+    height: 1.8rem;
+}
+
+.switchPanel {
+    margin-top: 6px;
+    text-align: center;
+    width: 45px;
+    height: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    display: flex;
+    cursor: pointer;
+    position: relative;
+}
+
+.switchPanel:hover {
+    border: 1px solid #a00;
+}
+
+.switchPanel span {
+    flex: 1;
+    text-align: center;
+    z-index: 2;
+}
+
+.switchPanel div {
+    position: absolute;
+    width: 22.5px;
+    width: 50%;
+    background: #000000;
+    height: 1rem;
+    left: 0;
+    z-index: 1;
+}
+
+#spanToday {
+    color: #ffffff;
+}
+
+.filltemp {
+    flex: 1;
+}
+
+/* 设置按钮 */
+
+#settingbtn {
+    flex: 0 0 auto;
+    width: 60px;
+    cursor: pointer;
+    height: 1.8rem;
+    line-height: 1.8rem;
+}
+
+.settingimg:hover {
+    fill: #ff0000;
+}
+
+.octicon {
+    vertical-align: text-bottom;
+    display: inline-block;
+    fill: currentColor;
+}
+
+.x-settings {
+    float: right;
+    cursor: pointer;
+}
+
+.x-settings:hover {
+    color: #a00;
+}

@@ -1,0 +1,140 @@
+{
+   "Email": {
+      "message": "Email"
+   },
+   "QQGroup": {
+      "message": "QQ Group"
+   },
+   "QQGroupTips": {
+      "message": "Join QQ Group"
+   },
+   "about": {
+      "message": "About"
+   },
+   "appdescription": {
+      "message": "Record the time of browsing the websites when you use Chrome."
+   },
+   "appname": {
+      "message": "TimeBox"
+   },
+   "clear": {
+      "message": "Clear"
+   },
+   "clearallrecords": {
+      "message": "Clear all records?"
+   },
+   "clearhistory": {
+      "message": "Clear History"
+   },
+   "clearsuccessfully": {
+      "message": "Clear Successfully!"
+   },
+   "contact": {
+      "message": "Contact"
+   },
+   "customsitename": {
+      "message": "Custom Name"
+   },
+   "defaultsitename": {
+      "message": "Default Name"
+   },
+   "donatebyalipay": {
+      "message": "AliPay"
+   },
+   "donatebyalipaytip": {
+      "message": "Donate by AliPay"
+   },
+   "donatebywepay": {
+      "message": "WePay"
+   },
+   "donatebywepaytip": {
+      "message": "Donate by WePay"
+   },
+   "eggshell": {
+      "message": "Egg"
+   },
+   "emialtip": {
+      "message": "Contact me via email"
+   },
+   "lang": {
+      "message": "en"
+   },
+   "list": {
+      "message": "List"
+   },
+   "nohistory": {
+      "message": "No Data"
+   },
+   "notify": {
+      "message": "Ranking list message reminder"
+   },
+   "notifytime": {
+      "message": "Time:"
+   },
+   "numberofwebsites": {
+      "message": "Show the number of websites"
+   },
+   "option": {
+      "message": "Option"
+   },
+   "recordpinnedtab": {
+      "message": "Record Pinned Tab"
+   },
+   "review": {
+      "message": "Review"
+   },
+   "reviewtip": {
+      "message": "Give me a favourable comment"
+   },
+   "savedsuccessfully": {
+      "message": "Saved Successfully!"
+   },
+   "setting": {
+      "message": "Setting"
+   },
+   "share": {
+      "message": "Share"
+   },
+   "showsystemsitename": {
+      "message": "Show friendly website name"
+   },
+   "showwebicon": {
+      "message": "Show WebSite Icon"
+   },
+   "sitelist": {
+      "message": "Website List"
+   },
+   "support": {
+      "message": "Support"
+   },
+   "switchbtn_today": {
+      "message": "T"
+   },
+   "switchbtn_total": {
+      "message": "A"
+   },
+   "tip_total": {
+      "message": "Switch to all data"
+   },
+   "tip_totay": {
+      "message": "Switch to today's data"
+   },
+   "title_ratio": {
+      "message": "Ratio"
+   },
+   "title_site": {
+      "message": "Site"
+   },
+   "title_time": {
+      "message": "Time"
+   },
+   "todaystop3": {
+      "message": "Today`s Top3"
+   },
+   "versionno": {
+      "message": "V3.3.4"
+   },
+   "weblist": {
+      "message": "WebSite List"
+   }
+}

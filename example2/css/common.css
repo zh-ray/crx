@@ -1,0 +1,100 @@
+ /* 自定义title */
+ .tbTitle {
+     position: fixed;
+     z-index: 1000;
+     display: none;
+ }
+
+ .tbTitle .triangleout {
+     width: 0;
+     height: 0;
+     border-width: 0 10px 9px;
+     border-style: solid;
+     border-color: transparent transparent transparent;
+     margin: 0 auto;
+     position: relative;
+ }
+
+ .tbTitle .triangleoutinverted {
+     transform: rotate(180deg);
+ }
+
+
+ .tbTitle .trianglein {
+     display: block;
+     width: 0;
+     height: 0;
+     border-width: 0 8px 8px;
+     border-style: solid;
+     border-color: transparent transparent #000000;
+     position: absolute;
+     left: -8px;
+     top: 1px;
+ }
+
+ .tbTitle .content {
+     background-color: #000000;
+     color: #FFFFFF;
+     padding: 0 10px;
+     font-size: 13px;
+     height: 30px;
+     line-height: 30px;
+     border-radius: 3px;
+ }
+
+ /*弹出层*/
+ .alertframe {
+     display: none;
+     background-color: #FFFFFF;
+     z-index: 1000;
+     max-width: 800px;
+     min-width: 300px;
+     max-height: 600px;
+     min-height: 50px;
+     position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+     bottom: 0;
+     margin: auto;
+     border-radius: 4px;
+ }
+
+ /* 弹出框导航栏 */
+ .alertframe .tab {
+     margin: 5px;
+     display: flex;
+     justify-content: space-between;
+     height: 30px;
+ }
+
+ .alertframe .tab .title {
+     font-weight: bold;
+     margin: auto 10px;
+     font-size: 18px;
+ }
+
+ .alertframe .tab .closeBtn {
+     cursor: pointer;
+     border: none;
+     background-color: transparent;
+     outline: none;
+ }
+
+ /* 弹出框内容 */
+ .alertframe .content {
+     margin: 5px;
+ }
+
+ .alerttext {
+     display: none;
+     text-align: center; 
+ }
+
+ .alerttext div {
+     display: block; 
+     height: 100px;
+     line-height: 100px;
+     width: auto;
+     font-size: 16px;
+ }

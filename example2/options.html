@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title local-data-html="appname">TimeBox</title>
+    <link rel="stylesheet" href="css/common.css?t=2019052801" />
+    <link rel="stylesheet" href="css/options.css?t=2019052801" />
+    <script src="scripts/jquery.js?t=2017070701"></script>
+    <script src="scripts/site.js?t=2019052801"></script>
+    <script src="scripts/common.js?t=2019052801"></script>
+    <script src="scripts/svg.js?t=2019052801"></script>
+    <script src="scripts/options.js?t=2019052801"></script>
+</head>
+
+<body>
+    <div class="optionpage">
+        <div class="tab" style="display: none;">
+            <ul class="tabul">
+                <li>
+                    <a href="#settings">
+                        <span local-data-html="setting"></span>
+                        <img src="images/option/setting.png" /></a></li>
+                <li>
+                    <a href="#support">
+                        <span local-data-html="support"></span>
+                        <img src="images/option/support.png" /></a></li>
+                <li>
+                    <a href="#weblist">
+                        <span local-data-html="list"></span>
+                        <img src="images/option/list.png" /></a></li>
+                <li style="display:none;">
+                    <span local-data-html="share"></span>
+                    <img src="images/option/share.png" />
+                </li>
+                <li>
+                    <a href="#about">
+                        <span local-data-html="about"></span>
+                        <img src="images/option/about.png" /></a></li>
+            </ul>
+        </div>
+        <div class="context">
+            <div name="settings" id="settings" class="optioncontext settings">
+                <div class="optiontitle" local-data-html="setting"></div>
+                <div class="setting">
+                    <span local-data-html="showsystemsitename"></span>
+                    <input id="checkshowname" class="switch switch-anim" type="checkbox" data="showdefaultname" checked>
+                </div>
+                <div class="setting">
+                    <span local-data-html="showwebicon"></span>
+                    <input id="checkshowicon" class="switch switch-anim" type="checkbox" data="checkshowicon" checked>
+                </div>
+                <div class="setting">
+                    <span local-data-html="recordpinnedtab"></span>
+                    <input id="checkrecordpinedtab" class="switch switch-anim" type="checkbox" data="recordpinedtab"
+                        checked>
+                </div>
+                <div class="setting">
+                    <span local-data-html="notify"></span>
+                    <input id="checktopmsg" class="switch switch-anim" type="checkbox" checked>
+                </div>
+                <div class="setting subsetting msgtime">
+                    <span local-data-html="notifytime"></span>
+                    <input id="topmsgtime" type="time" class="inputtime" value="17:30:00" />
+                </div>
+                <div class="setting">
+                    <span style="margin-left:4px;" local-data-html="numberofwebsites"></span>
+                    <select id="showsitenum">
+                        <option value="5">5</option>
+                        <option value="10" selected>10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                    </select>
+                </div>
+                <div class="setting">
+                    <span style="margin-left:4px;" local-data-html="clearhistory"></span>
+                    <button id="btnclear" class="btn clearbtn" local-data-html="clear"></button>
+                </div>
+            </div>
+            <div name="support" id="support" class="optioncontext support">
+                <div class="optiontitle" local-data-html="support"></div>
+                <a class="tipsicon reviewtips" data-svg="review" target="_blank"
+                    href="https://chrome.google.com/webstore/detail/timebox/geobdiogdkjmebanbejocmghgkibfdga/reviews">
+                    <span class="tips" local-data-html="review"></span>
+                </a>
+                <a id="iconwepay" class="tipsicon aftertipicon wepaytips" data-svg="wepay">
+                    <span class="tips" local-data-html="donatebywepay"></span>
+                </a>
+                <a id="iconalipay" class="tipsicon aftertipicon alipaytips" data-svg="alipay">
+                    <span class="tips" local-data-html="donatebyalipay"></span>
+                </a>
+            </div>
+            <div name="contact" id="contact" class="optioncontext contact">
+                <div class="optiontitle" local-data-html="contact"></div>
+                <a class="tipsicon qqtips" target="_blank" data-svg="qq" href="https://jq.qq.com/?_wv=1027&k=5GNHUuB">
+                    <span class="tips" local-data-html="QQGroup"></span>
+                </a>
+                <a id="iconemail" class="tipsicon aftertipicon emailtips" data-svg="email">
+                    <span class="tips" local-data-html="Email"></span>
+                </a>
+            </div>
+            <div name="weblist" id="weblist" class="optioncontext">
+                <div class="optiontitle" local-data-html="weblist"></div>
+                <div class="weblist table-wrapper">
+                    <table class="fl-table">
+                        <thead>
+                            <tr style="width:100%">
+                                <th class="thcustomicon"> </th>
+                                <th local-data-html="title_site" class="thtitle"></th>
+                                <th local-data-html="defaultsitename" class="thdefaultname"></th>
+                                <th local-data-html="customsitename" class="thcustomname" style="width: 200px;"></th>
+                            </tr>
+                        </thead>
+                        <tbody id="weblistbody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div name="about" id="about" class="optioncontext">
+                <div class="optiontitle" local-data-html="about"></div>
+                <div class="optiondesc" local-data-html="versionno"></div>
+            </div>
+        </div>
+    </div>
+    <div class="aletpay aletwepay">
+        <img class="payimg" src="/images/option/donatebywepay.png" />
+        <div class="donatetip" local-data-html="donatetip"></div>
+    </div>
+    <div class="aletpay aletalipay">
+        <img class="payimg" src="/images/option/donatebyalipay.png" />
+        <div class="donatetip" local-data-html="donatetip"></div>
+    </div>
+</body>
+
+</html>

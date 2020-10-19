@@ -1,0 +1,24 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "scripts/jquery.js", "scripts/site.js", "scripts/common.js", "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appdescription__",
+   "icons": {
+      "128": "images/icon_128.png",
+      "48": "images/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhMPN/HPh1NxDr6lKKtCNqLKGrNJIKP1yxEpBRWv2abDUxlnC5ZzCHq6LIzOIgnYt9F5at/84GYUSfOrAF31Rc62Mna+A8dHOuyihsGbDQdZBhUzauqiK9adGFxD0PzyQJsJpQUewDD5GA5AdkLDZTApWvLmWSgoLNX+RtLHEGdt4FhREJI0zc1l82qIlt/HMC80NExVFQ0VJuxYrZ+knXSi8HUs0jNjrG95hgesmBp0cztSo/dj8h+E9mdMcvhBUJqViRxk+J9WOqw2WBgUkiKlfX5HflZovN7Cj0TjBftRy6+Fn+B8necdJ1SqMUUYGRgpOiJ0LCzKzs7Z0O8qdgQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appname__",
+   "offline_enabled": true,
+   "options_page": "options.html",
+   "permissions": [ "tabs", "activeTab", "notifications", "idle" ],
+   "short_name": "TimeBox",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.3.4"
+}

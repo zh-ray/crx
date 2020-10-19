@@ -1,0 +1,143 @@
+{
+   "Email": {
+      "message": "邮箱"
+   },
+   "QQGroup": {
+      "message": "QQ群"
+   },
+   "QQGroupTips": {
+      "message": "加入QQ群，一起沟通"
+   },
+   "about": {
+      "message": "关于"
+   },
+   "appdescription": {
+      "message": "记录你使用Chrome时浏览各个网站的时间"
+   },
+   "appname": {
+      "message": "时间脚印"
+   },
+   "clear": {
+      "message": "清除"
+   },
+   "clearallrecords": {
+      "message": "是否确认清除所有记录？"
+   },
+   "clearhistory": {
+      "message": "清除所有记录"
+   },
+   "clearsuccessfully": {
+      "message": "清除成功！"
+   },
+   "contact": {
+      "message": "联系"
+   },
+   "customsitename": {
+      "message": "自定义网站名"
+   },
+   "defaultsitename": {
+      "message": "默认网站名"
+   },
+   "donatebyalipay": {
+      "message": "支付宝赞助"
+   },
+   "donatebyalipaytip": {
+      "message": "支付宝赞助，您的支持是对我最大的肯定"
+   },
+   "donatebywepay": {
+      "message": "微信赞助"
+   },
+   "donatebywepaytip": {
+      "message": "微信赞助，您的支持是对我最大的肯定"
+   },
+   "donatetip": {
+      "message": "您的支持是对我最大的肯定"
+   },
+   "eggshell": {
+      "message": "彩蛋"
+   },
+   "emialtip": {
+      "message": "通过邮箱联系我"
+   },
+   "lang": {
+      "message": "zh_CN"
+   },
+   "list": {
+      "message": "列表"
+   },
+   "nohistory": {
+      "message": "暂无记录"
+   },
+   "notify": {
+      "message": "每日浏览排行榜消息提示"
+   },
+   "notifytime": {
+      "message": "消息提示时间："
+   },
+   "numberofwebsites": {
+      "message": "网址显示个数"
+   },
+   "option": {
+      "message": "选项"
+   },
+   "recordpinnedtab": {
+      "message": "统计固定标签页"
+   },
+   "review": {
+      "message": "给个好评"
+   },
+   "reviewtip": {
+      "message": "给个好评吧~"
+   },
+   "savedsuccessfully": {
+      "message": "保存成功！"
+   },
+   "setting": {
+      "message": "设置"
+   },
+   "share": {
+      "message": "分享"
+   },
+   "showsystemsitename": {
+      "message": "显示默认网站名"
+   },
+   "showwebicon": {
+      "message": "显示网站图标"
+   },
+   "sitelist": {
+      "message": "网站列表"
+   },
+   "support": {
+      "message": "支持"
+   },
+   "switchbtn_today": {
+      "message": "今"
+   },
+   "switchbtn_total": {
+      "message": "总"
+   },
+   "tip_total": {
+      "message": ""
+   },
+   "tip_totay": {
+      "message": ""
+   },
+   "title_ratio": {
+      "message": "占比"
+   },
+   "title_site": {
+      "message": "网站"
+   },
+   "title_time": {
+      "message": "时间"
+   },
+   "todaystop3": {
+      "message": "今日排行榜"
+   },
+   "versionno": {
+      "message": "V3.3.4"
+   },
+   "weblist": {
+      "message": "网站列表"
+   }
+}
