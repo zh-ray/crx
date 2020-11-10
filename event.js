@@ -5,7 +5,7 @@ var penaltyArr = ["bilibili.com", "douyu.com", "huya.com", "youtube.com"];
 
 init();
 
-// 标签激活事件
+// tab激活事件
 chrome.tabs.onActivated.addListener(function (activeInfo) {
     chrome.tabs.get(activeInfo.tabId, function (tab) {
         if (typeof tab == "undefined") return;
@@ -194,6 +194,37 @@ function getStartTimeInfoJsonStr(tabId, domain, start = Date.now()) {
     return '{"tabId":' + tabId + ',"domain":"' + domain + '","start":' + start + '}';
 }
 
+// 记录网站的访问时间
+// all 总共的访问时间
+// today 当日的访问时间
 function getSaveJsonStr(domain, start) {
+    var jsonStr = localStorage[domain];
+    var today, all;
 
+    var currentTimeMillis = Date.now();
+    // 本次的访问时间
+    var time = parseInt((currentTimeMillis - start) / 1000);
+    if (time <= 0)
+        return null;
+
+    // 若没有当前域名的访问时间字符串
+    if (jsonStr == null) {
+        all = today = time;
+        var domains = localStorage["domains"];
+        if (domains == null) {
+            domains = domain;
+        } else {
+            domains = domains + ',' + domain;
+        }
+        localStorage["domains"] = domains;
+    } else {
+        var jsonObj = JSON.parse(jsonStr);
+        today = jsonObj.today + time;
+        all = jsonObj.all + time;
+    }
+
+    return {
+        today,
+        all
+    };
 }
