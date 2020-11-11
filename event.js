@@ -115,8 +115,15 @@ function saveTime(windowId) {
             }
             if (JSON.parse(localStorage[wId]).domain == domain) {
                 var info = getSaveJsonStr(jsonObj.domain, jsonObj.start);
-            }
 
+                if (info != null) {
+                    localStorage[jsonObj.domain] = JSON.stringify({
+                        today: info.today,
+                        all: info.all
+                    });
+                }
+                break;
+            }
         }
     }
 }
