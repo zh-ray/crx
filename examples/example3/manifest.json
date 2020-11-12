@@ -1,0 +1,28 @@
+{
+   "background": {
+      "scripts": [ "dest/background.pie.min.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "extension_icon.png",
+         "24": "extension_icon.png",
+         "32": "extension_icon.png"
+      },
+      "default_title": "Rooster"
+   },
+   "chrome_url_overrides": {
+      "newtab": "register.html"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "Rooster helps you to stay productive by giving you insights on your Browsing habits and by notifying you when you lose your focus.",
+   "icons": {
+      "128": "extension_icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArMT56rPZ4ZzBJanUjtmW/7SS0MPL459CB9WRjmY/LRncFf4hpMFV2Z9eIjHr88D8UgMWFn6nX6ZfIiZbBjzXHMuylIgkuNXz3KDpmmrMQI6V8zsPNkpmVAs1mYEMtYbG+vU6+7ZWDCFWRHheK53aGEbdCOEpoZdc0h1a++1IcLGrO2/jzAHWLLXQbncQCxe12aIidJIenH4hWMoT7XBFy6dAvPi4OdEE3Hmv53J+zZyuOSVvpTylWbZ5XRmN4SPMKlB2tevjtYLKDPjerKvwmXOX4VwBLr9vtV3vlNcXezkVJlw+UGlppA/3uAOaIOiZUviXL79R4NeL4xjXdXfLTQIDAQAB",
+   "manifest_version": 2,
+   "name": "Rooster for Chrome™",
+   "permissions": [ "idle", "activeTab", "tabs", "gcm", "storage", "notifications" ],
+   "short_name": "Rooster",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}

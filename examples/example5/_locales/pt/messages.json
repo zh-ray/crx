@@ -1,0 +1,266 @@
+{
+   "apr_abbr": {
+      "description": "April abbreviation",
+      "message": "Abr"
+   },
+   "aug_abbr": {
+      "description": "August abbreviation",
+      "message": "Ago"
+   },
+   "average_visits": {
+      "description": "Text in the Daily Stats table",
+      "message": "Média de Visitantes por Dia:"
+   },
+   "clear": {
+      "description": "Button name next to each filter",
+      "message": "Limpar"
+   },
+   "clear_all": {
+      "description": "Button name underneath filters when multiple filters are applied",
+      "message": "Limpar Todos os Filtros"
+   },
+   "daily_stats": {
+      "description": "Heading for the Daily Stats table",
+      "message": "Estatísticas diárias"
+   },
+   "day_hover_text": {
+      "description": "Text that appears when hovering over a date link",
+      "message": "Filtrar por este dia"
+   },
+   "day_of_month": {
+      "description": "Chart title",
+      "message": "Dia do Mês"
+   },
+   "day_of_week": {
+      "description": "Chart title",
+      "message": "Dia da semana"
+   },
+   "dec_abbr": {
+      "description": "December abbreviation",
+      "message": "Dez"
+   },
+   "define_transitions": {
+      "description": "Text of link underneath the Transition Type chart",
+      "message": "Definição de tipos de transição"
+   },
+   "domain_column_name": {
+      "description": "Name of the Domain column that appears when clicking View Top 100 from the Domains tab",
+      "message": "Domínio"
+   },
+   "domain_hover_text": {
+      "description": "Text that appears when hovering over a domain link",
+      "message": "Filtrar por este domínio"
+   },
+   "domain_tab_name": {
+      "description": "Name of the Domains tab",
+      "message": "Domínios"
+   },
+   "extension_description": {
+      "description": "Description of the extension",
+      "message": "Exibição de gráficos interativos e as estatísticas de seu histórico de navegação inteiro."
+   },
+   "extension_name": {
+      "description": "Name of the extension",
+      "message": "Tendências Histórico"
+   },
+   "feb_abbr": {
+      "description": "February abbreviation",
+      "message": "Fev"
+   },
+   "filter_by_domain": {
+      "description": "Text next to the filter box on the domain tab",
+      "message": "Filtrar por Domínio: "
+   },
+   "filter_by_url": {
+      "description": "Text next to the filter box on the URL tab",
+      "message": "Filtro por URL: "
+   },
+   "friday": {
+      "message": "Sexta-feira"
+   },
+   "go": {
+      "description": "Button name next to the filter box on both the Domains and URLs tabs",
+      "message": "Vá"
+   },
+   "jan_abbr": {
+      "description": "January abbreviation",
+      "message": "Jan"
+   },
+   "jul_abbr": {
+      "description": "July abbreviation",
+      "message": "Jul"
+   },
+   "jun_abbr": {
+      "description": "June abbreviation",
+      "message": "Jun"
+   },
+   "mar_abbr": {
+      "description": "March abbreviation",
+      "message": "Mar"
+   },
+   "may_abbr": {
+      "description": "May abbreviation",
+      "message": "Mai"
+   },
+   "median_visits": {
+      "description": "Text in the Daily Stats table",
+      "message": "Visitas média por dia:"
+   },
+   "monday": {
+      "message": "Segunda-feira"
+   },
+   "month": {
+      "description": "Chart title",
+      "message": "Mês"
+   },
+   "not_applicable": {
+      "description": "Short text to indicate a statistic is not applicable for the current filters",
+      "message": "N/A"
+   },
+   "nov_abbr": {
+      "description": "November abbreviation",
+      "message": "Nov"
+   },
+   "num_visits": {
+      "description": "Text that appears in the legend on all bar-graph charts",
+      "message": "Número de Visitas"
+   },
+   "number_of_visits": {
+      "description": "Chart label on the Time-Series chart",
+      "message": "Número de visitas"
+   },
+   "oct_abbr": {
+      "description": "October abbreviation",
+      "message": "Out"
+   },
+   "percent_unique_visits": {
+      "description": "Column heading on Unique Visits tab",
+      "message": "% Unique Visits"
+   },
+   "results_filtered": {
+      "description": "Text that appears at the top after a filter has been applied",
+      "message": "Os resultados são filtrados por:"
+   },
+   "return_to": {
+      "description": "Part of a link that takes the user to a previous domain filter",
+      "message": "Voltar para $DOMAIN$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "google.com"
+         }
+      }
+   },
+   "saturday": {
+      "message": "Sábado"
+   },
+   "sep_abbr": {
+      "description": "September abbreviation",
+      "message": "Set"
+   },
+   "sunday": {
+      "message": "Domingo"
+   },
+   "thursday": {
+      "message": "Quinta-feira"
+   },
+   "time_of_day": {
+      "description": "Chart title",
+      "message": "Hora do dia"
+   },
+   "today": {
+      "description": "Link that filters history results to today",
+      "message": "Hoje:"
+   },
+   "today_hover_text": {
+      "description": "Text that displays when hovering over the Today link",
+      "message": "Filtrar por hoje"
+   },
+   "top100_days": {
+      "description": "Table heading on the busiest days popup",
+      "message": "Top 100 Busiest Days"
+   },
+   "top100_domains": {
+      "description": "Table heading on the domain popup",
+      "message": "Top 100 Most Visited Domains"
+   },
+   "top100_urls": {
+      "description": "Table heading on the URL popup",
+      "message": "Top 100 Most Visited URLs"
+   },
+   "top10_days": {
+      "description": "Table heading for the Busiest Days table",
+      "message": "Top 10 dias mais movimentados"
+   },
+   "top10_domains": {
+      "description": "Table heading on the domain tab",
+      "message": "Top 10 domínios visitados"
+   },
+   "top10_unique_urls": {
+      "description": "Table heading on the unique urls per domain tab",
+      "message": "Domains with most unique URLs"
+   },
+   "top10_urls": {
+      "description": "Table heading on the URL tab",
+      "message": "Top 10 URLs visitadas"
+   },
+   "transition_type": {
+      "description": "Chart title",
+      "message": "Tipo de Transição"
+   },
+   "tuesday": {
+      "message": "Terça-feira"
+   },
+   "unique_url_count": {
+      "description": "Label for the second column of the Unique URLs per Domain table",
+      "message": "Unique URLs"
+   },
+   "unique_url_tab_name": {
+      "description": "Name of the Unique URLs tab",
+      "message": "Unique Visits"
+   },
+   "unlimited_link": {
+      "message": "Try the Unlimited version"
+   },
+   "url_column_name": {
+      "description": "Name of the URL column that appears when clicking View Top 100 from the URLs tab",
+      "message": "URL"
+   },
+   "url_hover_text": {
+      "description": "Text that appears when hovering over a URL link",
+      "message": "Filtrar por esta URL"
+   },
+   "url_stats": {
+      "description": "URL statistics shown at the top of the page",
+      "message": "$URL_COUNT$ URLs visitado $VISIT_COUNT$ vezes",
+      "placeholders": {
+         "url_count": {
+            "content": "$1",
+            "example": "230"
+         },
+         "visit_count": {
+            "content": "$2",
+            "example": "964"
+         }
+      }
+   },
+   "url_tab_name": {
+      "description": "Name of the URLs tab",
+      "message": "URLs"
+   },
+   "view_more": {
+      "description": "Text for the link on each tab that pops up a table showing more results",
+      "message": "View Top 100"
+   },
+   "visit_count": {
+      "description": "Column name on all tables showing statistics",
+      "message": "Contagem de visitas"
+   },
+   "waiting_text": {
+      "description": "Text to display while the user's history is being processed.",
+      "message": "Por favor, aguarde enquanto o seu tendências são calculadas."
+   },
+   "wednesday": {
+      "message": "Quarta-feira"
+   }
+}

@@ -1,0 +1,266 @@
+{
+   "apr_abbr": {
+      "description": "April abbreviation",
+      "message": "四月"
+   },
+   "aug_abbr": {
+      "description": "August abbreviation",
+      "message": "八月"
+   },
+   "average_visits": {
+      "description": "Text in the Daily Stats table",
+      "message": "每天平均访问次数:"
+   },
+   "clear": {
+      "description": "Button name next to each filter",
+      "message": "清除"
+   },
+   "clear_all": {
+      "description": "Button name underneath filters when multiple filters are applied",
+      "message": "清除所有筛选"
+   },
+   "daily_stats": {
+      "description": "Heading for the Daily Stats table",
+      "message": "每日统计"
+   },
+   "day_hover_text": {
+      "description": "Text that appears when hovering over a date link",
+      "message": "按天筛选"
+   },
+   "day_of_month": {
+      "description": "Chart title",
+      "message": "一月中的每一天"
+   },
+   "day_of_week": {
+      "description": "Chart title",
+      "message": "一周中的每一天"
+   },
+   "dec_abbr": {
+      "description": "December abbreviation",
+      "message": "十二月"
+   },
+   "define_transitions": {
+      "description": "Text of link underneath the Transition Type chart",
+      "message": "转换类型定义"
+   },
+   "domain_column_name": {
+      "description": "Name of the Domain column that appears when clicking View Top 100 from the Domains tab",
+      "message": "域名"
+   },
+   "domain_hover_text": {
+      "description": "Text that appears when hovering over a domain link",
+      "message": "按域名筛选"
+   },
+   "domain_tab_name": {
+      "description": "Name of the Domains tab",
+      "message": "域名"
+   },
+   "extension_description": {
+      "description": "Description of the extension",
+      "message": "显示你整个浏览历史的交互图表和统计数据"
+   },
+   "extension_name": {
+      "description": "Name of the extension",
+      "message": "历史趋势"
+   },
+   "feb_abbr": {
+      "description": "February abbreviation",
+      "message": "二月"
+   },
+   "filter_by_domain": {
+      "description": "Text next to the filter box on the domain tab",
+      "message": "按域名筛选: "
+   },
+   "filter_by_url": {
+      "description": "Text next to the filter box on the URL tab",
+      "message": "按URL筛选: "
+   },
+   "friday": {
+      "message": "星期五"
+   },
+   "go": {
+      "description": "Button name next to the filter box on both the Domains and URLs tabs",
+      "message": "执行"
+   },
+   "jan_abbr": {
+      "description": "January abbreviation",
+      "message": "一月"
+   },
+   "jul_abbr": {
+      "description": "July abbreviation",
+      "message": "七月"
+   },
+   "jun_abbr": {
+      "description": "June abbreviation",
+      "message": "六月"
+   },
+   "mar_abbr": {
+      "description": "March abbreviation",
+      "message": "三月"
+   },
+   "may_abbr": {
+      "description": "May abbreviation",
+      "message": "五月"
+   },
+   "median_visits": {
+      "description": "Text in the Daily Stats table",
+      "message": "每天访问次数中位数:"
+   },
+   "monday": {
+      "message": "星期一"
+   },
+   "month": {
+      "description": "Chart title",
+      "message": "每月"
+   },
+   "not_applicable": {
+      "description": "Short text to indicate a statistic is not applicable for the current filters",
+      "message": "N/A"
+   },
+   "nov_abbr": {
+      "description": "November abbreviation",
+      "message": "十一月"
+   },
+   "num_visits": {
+      "description": "Text that appears in the legend on all bar-graph charts",
+      "message": "访问次数"
+   },
+   "number_of_visits": {
+      "description": "Chart label on the Time-Series chart",
+      "message": "访问次数"
+   },
+   "oct_abbr": {
+      "description": "October abbreviation",
+      "message": "十月"
+   },
+   "percent_unique_visits": {
+      "description": "Column heading on Unique Visits tab",
+      "message": "% Unique Visits"
+   },
+   "results_filtered": {
+      "description": "Text that appears at the top after a filter has been applied",
+      "message": "按以下方式的筛选结果:"
+   },
+   "return_to": {
+      "description": "Part of a link that takes the user to a previous domain filter",
+      "message": "回到 $DOMAIN$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "google.com"
+         }
+      }
+   },
+   "saturday": {
+      "message": "星期六"
+   },
+   "sep_abbr": {
+      "description": "September abbreviation",
+      "message": "九月"
+   },
+   "sunday": {
+      "message": "星期日"
+   },
+   "thursday": {
+      "message": "星期四"
+   },
+   "time_of_day": {
+      "description": "Chart title",
+      "message": "一天中的每一时间"
+   },
+   "today": {
+      "description": "Link that filters history results to today",
+      "message": "今天:"
+   },
+   "today_hover_text": {
+      "description": "Text that displays when hovering over the Today link",
+      "message": "按今天筛选"
+   },
+   "top100_days": {
+      "description": "Table heading on the busiest days popup",
+      "message": "Top 100 Busiest Days"
+   },
+   "top100_domains": {
+      "description": "Table heading on the domain popup",
+      "message": "Top 100 Most Visited Domains"
+   },
+   "top100_urls": {
+      "description": "Table heading on the URL popup",
+      "message": "Top 100 Most Visited URLs"
+   },
+   "top10_days": {
+      "description": "Table heading for the Busiest Days table",
+      "message": "最忙碌的10天"
+   },
+   "top10_domains": {
+      "description": "Table heading on the domain tab",
+      "message": "访问次数最多的10个域名"
+   },
+   "top10_unique_urls": {
+      "description": "Table heading on the unique urls per domain tab",
+      "message": "Domains with most unique URLs"
+   },
+   "top10_urls": {
+      "description": "Table heading on the URL tab",
+      "message": "访问次数最多的10个URL"
+   },
+   "transition_type": {
+      "description": "Chart title",
+      "message": "转换类型"
+   },
+   "tuesday": {
+      "message": "星期二"
+   },
+   "unique_url_count": {
+      "description": "Label for the second column of the Unique URLs per Domain table",
+      "message": "Unique URLs"
+   },
+   "unique_url_tab_name": {
+      "description": "Name of the Unique URLs tab",
+      "message": "Unique Visits"
+   },
+   "unlimited_link": {
+      "message": "Try the Unlimited version"
+   },
+   "url_column_name": {
+      "description": "Name of the URL column that appears when clicking View Top 100 from the URLs tab",
+      "message": "URL"
+   },
+   "url_hover_text": {
+      "description": "Text that appears when hovering over a URL link",
+      "message": "按这个URL筛选"
+   },
+   "url_stats": {
+      "description": "URL statistics shown at the top of the page",
+      "message": "$URL_COUNT$ 个URL访问了 $VISIT_COUNT$ 次",
+      "placeholders": {
+         "url_count": {
+            "content": "$1",
+            "example": "230"
+         },
+         "visit_count": {
+            "content": "$2",
+            "example": "964"
+         }
+      }
+   },
+   "url_tab_name": {
+      "description": "Name of the URLs tab",
+      "message": "URL"
+   },
+   "view_more": {
+      "description": "Text for the link on each tab that pops up a table showing more results",
+      "message": "View Top 100"
+   },
+   "visit_count": {
+      "description": "Column name on all tables showing statistics",
+      "message": "访问次数"
+   },
+   "waiting_text": {
+      "description": "Text to display while the user's history is being processed.",
+      "message": "计算趋势中，请稍等"
+   },
+   "wednesday": {
+      "message": "星期三"
+   }
+}

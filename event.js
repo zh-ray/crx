@@ -125,6 +125,20 @@ function saveTime(windowId) {
                 break;
             }
         }
+
+        // 统一时间
+        var start = Date.now();
+        for (var i = 0; i < windowIdArr.length; i++) {
+            var wId = windowIdArr[i];
+            if (localStorage[wId] == null) {
+                continue;
+            }
+
+            var obj = JSON.parse(localStorage[wId]);
+            if (obj.domain == domain) {
+                localStorage[wId] = getStartTimeInfoJsonStr(obj.tabId, domain, start);
+            }
+        }
     }
 }
 

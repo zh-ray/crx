@@ -1,0 +1,266 @@
+{
+   "apr_abbr": {
+      "description": "April abbreviation",
+      "message": "апр"
+   },
+   "aug_abbr": {
+      "description": "August abbreviation",
+      "message": "авг"
+   },
+   "average_visits": {
+      "description": "Text in the Daily Stats table",
+      "message": "Среднее количество посещений в день:"
+   },
+   "clear": {
+      "description": "Button name next to each filter",
+      "message": "Очистить"
+   },
+   "clear_all": {
+      "description": "Button name underneath filters when multiple filters are applied",
+      "message": "Очистить все фильтры"
+   },
+   "daily_stats": {
+      "description": "Heading for the Daily Stats table",
+      "message": "Дневная статистика"
+   },
+   "day_hover_text": {
+      "description": "Text that appears when hovering over a date link",
+      "message": "Фильтр по сей день"
+   },
+   "day_of_month": {
+      "description": "Chart title",
+      "message": "День месяца"
+   },
+   "day_of_week": {
+      "description": "Chart title",
+      "message": "День недели"
+   },
+   "dec_abbr": {
+      "description": "December abbreviation",
+      "message": "дек"
+   },
+   "define_transitions": {
+      "description": "Text of link underneath the Transition Type chart",
+      "message": "Определение переходных типов"
+   },
+   "domain_column_name": {
+      "description": "Name of the Domain column that appears when clicking View Top 100 from the Domains tab",
+      "message": "Домена"
+   },
+   "domain_hover_text": {
+      "description": "Text that appears when hovering over a domain link",
+      "message": "Фильтр этот домен"
+   },
+   "domain_tab_name": {
+      "description": "Name of the Domains tab",
+      "message": "Домены"
+   },
+   "extension_description": {
+      "description": "Description of the extension",
+      "message": "Отображает интерактивных графиков и статистики всей вашей истории просмотра."
+   },
+   "extension_name": {
+      "description": "Name of the extension",
+      "message": "История тенденции"
+   },
+   "feb_abbr": {
+      "description": "February abbreviation",
+      "message": "февр"
+   },
+   "filter_by_domain": {
+      "description": "Text next to the filter box on the domain tab",
+      "message": "Фильтр по областям: "
+   },
+   "filter_by_url": {
+      "description": "Text next to the filter box on the URL tab",
+      "message": "Фильтр по URL: "
+   },
+   "friday": {
+      "message": "Пятница"
+   },
+   "go": {
+      "description": "Button name next to the filter box on both the Domains and URLs tabs",
+      "message": "Перейти"
+   },
+   "jan_abbr": {
+      "description": "January abbreviation",
+      "message": "янв"
+   },
+   "jul_abbr": {
+      "description": "July abbreviation",
+      "message": "июль"
+   },
+   "jun_abbr": {
+      "description": "June abbreviation",
+      "message": "июнь"
+   },
+   "mar_abbr": {
+      "description": "March abbreviation",
+      "message": "март"
+   },
+   "may_abbr": {
+      "description": "May abbreviation",
+      "message": "май"
+   },
+   "median_visits": {
+      "description": "Text in the Daily Stats table",
+      "message": "Медиана посещений в день:"
+   },
+   "monday": {
+      "message": "Понедельник"
+   },
+   "month": {
+      "description": "Chart title",
+      "message": "Месяц"
+   },
+   "not_applicable": {
+      "description": "Short text to indicate a statistic is not applicable for the current filters",
+      "message": "N/A"
+   },
+   "nov_abbr": {
+      "description": "November abbreviation",
+      "message": "ноябрь"
+   },
+   "num_visits": {
+      "description": "Text that appears in the legend on all bar-graph charts",
+      "message": "Количество посещений"
+   },
+   "number_of_visits": {
+      "description": "Chart label on the Time-Series chart",
+      "message": "Количество посещений"
+   },
+   "oct_abbr": {
+      "description": "October abbreviation",
+      "message": "окт"
+   },
+   "percent_unique_visits": {
+      "description": "Column heading on Unique Visits tab",
+      "message": "% Unique Visits"
+   },
+   "results_filtered": {
+      "description": "Text that appears at the top after a filter has been applied",
+      "message": "Результаты фильтруются по:"
+   },
+   "return_to": {
+      "description": "Part of a link that takes the user to a previous domain filter",
+      "message": "Вернуться к $DOMAIN$",
+      "placeholders": {
+         "domain": {
+            "content": "$1",
+            "example": "google.com"
+         }
+      }
+   },
+   "saturday": {
+      "message": "Суббота"
+   },
+   "sep_abbr": {
+      "description": "September abbreviation",
+      "message": "сент"
+   },
+   "sunday": {
+      "message": "Воскресенье"
+   },
+   "thursday": {
+      "message": "Четверг"
+   },
+   "time_of_day": {
+      "description": "Chart title",
+      "message": "Время дня"
+   },
+   "today": {
+      "description": "Link that filters history results to today",
+      "message": "Сегодня:"
+   },
+   "today_hover_text": {
+      "description": "Text that displays when hovering over the Today link",
+      "message": "Фильтр по сегодня"
+   },
+   "top100_days": {
+      "description": "Table heading on the busiest days popup",
+      "message": "Top 100 Busiest Days"
+   },
+   "top100_domains": {
+      "description": "Table heading on the domain popup",
+      "message": "Top 100 Most Visited Domains"
+   },
+   "top100_urls": {
+      "description": "Table heading on the URL popup",
+      "message": "Top 100 Most Visited URLs"
+   },
+   "top10_days": {
+      "description": "Table heading for the Busiest Days table",
+      "message": "Топ 10 напряженные дни"
+   },
+   "top10_domains": {
+      "description": "Table heading on the domain tab",
+      "message": "Топ 10 самых посещаемых доменов"
+   },
+   "top10_unique_urls": {
+      "description": "Table heading on the unique urls per domain tab",
+      "message": "Domains with most unique URLs"
+   },
+   "top10_urls": {
+      "description": "Table heading on the URL tab",
+      "message": "Топ 10 самых посещаемых URL-адреса"
+   },
+   "transition_type": {
+      "description": "Chart title",
+      "message": "Тип перехода"
+   },
+   "tuesday": {
+      "message": "Вторник"
+   },
+   "unique_url_count": {
+      "description": "Label for the second column of the Unique URLs per Domain table",
+      "message": "Unique URLs"
+   },
+   "unique_url_tab_name": {
+      "description": "Name of the Unique URLs tab",
+      "message": "Unique Visits"
+   },
+   "unlimited_link": {
+      "message": "Try the Unlimited version"
+   },
+   "url_column_name": {
+      "description": "Name of the URL column that appears when clicking View Top 100 from the URLs tab",
+      "message": "URL"
+   },
+   "url_hover_text": {
+      "description": "Text that appears when hovering over a URL link",
+      "message": "Фильтр по этому URL"
+   },
+   "url_stats": {
+      "description": "URL statistics shown at the top of the page",
+      "message": "$URL_COUNT$ URLs посетили $VISIT_COUNT$ раз",
+      "placeholders": {
+         "url_count": {
+            "content": "$1",
+            "example": "230"
+         },
+         "visit_count": {
+            "content": "$2",
+            "example": "964"
+         }
+      }
+   },
+   "url_tab_name": {
+      "description": "Name of the URLs tab",
+      "message": "URLs"
+   },
+   "view_more": {
+      "description": "Text for the link on each tab that pops up a table showing more results",
+      "message": "View Top 100"
+   },
+   "visit_count": {
+      "description": "Column name on all tables showing statistics",
+      "message": "Всего посещений"
+   },
+   "waiting_text": {
+      "description": "Text to display while the user's history is being processed.",
+      "message": "Пожалуйста, подождите, пока ваше тенденции рассчитываются."
+   },
+   "wednesday": {
+      "message": "Среда"
+   }
+}

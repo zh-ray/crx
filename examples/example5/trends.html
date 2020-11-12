@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/cssTabs.css" />
+        <link rel="stylesheet" type="text/css" href="colorbox/colorbox.css" />
+        <link rel="stylesheet" type="text/css" href="datatables/css/sorting.css" />
+        <link rel="stylesheet" type="text/css" href="css/trends.css" />
+        <script type="text/javascript" src="jquery/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="datatables/jquery.dataTables-1.9.4.min.js"></script>
+        <script type="text/javascript" src="datatables/jquery.dataTables-sort.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript" src="colorbox/colorbox.min.js"></script>
+        <script type="text/javascript" src="dygraph/dygraph-combined.js"></script>
+        <script type="text/javascript" src="js/calcTrends.js"></script>
+        <script type="text/javascript" src="js/buildInterface.js"></script>
+        <script type="text/javascript" src="js/drawCharts.js"></script>
+        <script type="text/javascript" src="js/public_suffix.js"></script>
+        <script type="text/javascript" src="js/utils.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="trends_container">
+            <div id="overview"></div>
+            <div id="chart_time"></div>
+            <div id="chart_hour"></div>
+            <div id="chart_day"></div>
+            <div id="chart_day_of_month"></div>
+            <div id="chart_month"></div>
+            <div id="chart_transition"></div>
+            <div id="transition_definition"></div>
+        </div>
+        <div id="waiting_container">
+            <p id="waiting_text"></p>
+            <img id="syncing_spinner" src="images/spinner-small.gif" width="24" height="24" />
+        </div>
+    </body>
+</html>

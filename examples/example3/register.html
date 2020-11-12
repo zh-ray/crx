@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>New Tab</title>
+    <link rel="stylesheet" href="dest/master.min.css" />
+</head>
+
+<body class="container-fluid">
+    <!--!!!!!!!-->
+    <!-- Title -->
+    <!--!!!!!!!-->
+    <h2 class="stats text-muted text-center main-title">Today's Statistics:</h2>
+    <!--!!!!!!!-->
+    <!-- Chart -->
+    <!--!!!!!!!-->
+    <div id="pieChart"></div>
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <!-- CTA for adding filters -->
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <div id="empty-state" class="text-center" style="display: none">
+    </div>
+    <a data-tooltip="You can Add Notification Alerts for websites you think are unproductive for you. When you spend more time on website(s) you mention here, we will nudge you via a Push Notification" id="add-filter-cta" data-fancybox data-src="#config-div">
+        <span class="glyphicon glyphicon-plus" style="font-size: 13px; position: relative; top: 0px; padding-right: 3px;"></span> Add Browsing Alert
+        <span id="filter-count"></span>
+    </a>
+    <!--!!!!!!!-->
+    <!-- Modal -->
+    <!--!!!!!!!-->
+    <div id="blacklist-domains" class="transit-div">
+        <div id="config-div" class="filter-modal">
+            <div class="header-form"><strong>Add Browsing Limit</strong></div>
+            <div id="add-domain-form-header">
+                <form id="form-add-domain">
+                    <input type="text" name="domain-name" id="domain-name" placeholder="Website(s) that makes you unproductive (Ex. quora.com)" class="form-control" title="URL example: quora.com" pattern="^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$" autocomplete="off" value="" required />
+                    <select class="selectpicker form-control" id="time-picker" name="time-picker" required>
+                        <option value="">Reminder after (in mins)</option>
+                        <option value="30">30</option>
+                        <option value="25">25</option>
+                        <option value="20">20</option>
+                        <option value="15">15</option>
+                        <option value="10">10</option>
+                        <option value="05">05</option>
+                        <option value="02">02</option>
+                    </select>
+                    <button type="submit" id="submit-domain">Submit</button>
+                </form>
+            </div>
+            <div id="domain-list">
+            </div>
+        </div>
+    </div>
+    <!--!!!!!!!!!!!!!!!!!!!!!-->
+    <!-- Bottom left options -->
+    <!--!!!!!!!!!!!!!!!!!!!!!-->
+    <div class="more-info-section">
+        <!-- 1 -->
+        <span class="glyphicon glyphicon-exclamation-sign glyphicon-style"></span>&nbsp;<a class="more-info-section-link" href="http://www.getrooster.in">About Rooster</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- 2 -->
+        <span class="glyphicon glyphicon-bullhorn glyphicon-style"></span>&nbsp;<a href="https://goo.gl/forms/yk0LYyBqr63jlBYs1" class="more-info-section-link">Suggest Feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- 3 -->
+        <span class="notification-sound">
+                <a href="#" data-tooltip="Turn Off Notification Sound">
+                    <span role="button" class="glyphicon glyphicon-volume-up glyphicon-style" id="vol-on" style="font-size: 18px; color:#61BA00; top: 4px;"></span>
+        </a>
+        <a href="#" data-tooltip="Turn On Notification Sound">
+                    <span role="button" class="glyphicon glyphicon-volume-off glyphicon-style" id="vol-off" style="font-size: 18px; display:none; color: #F05622; top: 4px;"></span>
+                </a>
+        </span>
+    </div>
+    <!--!!!!!!!!!!-->
+    <!-- Time log -->
+    <!--!!!!!!!!!!-->
+    <div class="total-log-time-section" align="center">
+        <div class="more-info-section-link" style="font-size: 14px; font-weight: 600; text-align: center; margin-bottom: 10px;">
+            Total log time today:
+        </div>
+        <span class="total-log-time-section-time">
+            0hr 0min
+        </span>
+        <div class="more-info-section-link" style="font-size: 12px; font-weight: 600; text-align: center; margin-top: 10px; margin-bottom: 7px;">
+            <a class="more-info-section-link" href="https://twitter.com/intent/tweet?text=Tracking%20my%20browsing%20stats%20like%20a%20Pro%20with%20this%20time%20tracking%20app%20called%20Rooster%20(www.getrooster.in)%20@sankalpdomore">
+                <span class="glyphicon glyphicon-retweet glyphicon-style"></span> Like Rooster? Tell your friends
+            </a>
+            <span style="color: #da552f; position: relative; top: -4px; left: -2px;">&#x25CF;</span>
+        </div>
+    </div>
+    <script src="dest/ga.js"></script>
+    <script src="dest/ui.pie.min.js"></script>
+</body>
+</html>
